@@ -27,7 +27,7 @@ server <- function(input, output, session) {
   observeEvent(input$chat_user_input, {
     # Each exchange = 1 system turn + pairs of user/assistant turns.
     # User turns are the odd-indexed turns after the system turn.
-    user_turns <- sum(sapply(chat$turns, \(t) t$role == "user"))
+    user_turns <- sum(vapply(chat$turns, \(t) t$role == "user", logical(1)))
 
     if (user_turns >= MAX_USER_TURNS) {
       chat_append("chat", "I'm sorry, this conversation has reached its limit. Please refresh the page to start a new one.")
