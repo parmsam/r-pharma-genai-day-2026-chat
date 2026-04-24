@@ -12,6 +12,27 @@ welcome_message <- interpolate_file("welcome-message.md", max_turns = MAX_USER_T
 ui <- page_fillable(
   fillable_mobile = TRUE,
   title = "R/Pharma GenAI Day 2026",
+  tags$style("
+    #github-link {
+      position: fixed;
+      top: 12px;
+      right: 16px;
+      z-index: 9999;
+      color: #333;
+      font-size: 1.5rem;
+      line-height: 1;
+      opacity: 0.7;
+      text-decoration: none;
+    }
+    #github-link:hover { opacity: 1; color: #000; }
+  "),
+  tags$a(
+    id = "github-link",
+    href = "https://github.com/parmsam/r-pharma-genai-day-2026-chat",
+    target = "_blank",
+    rel = "noopener noreferrer",
+    icon("github")
+  ),
   chat_ui(
     id = "chat",
     messages = welcome_message
