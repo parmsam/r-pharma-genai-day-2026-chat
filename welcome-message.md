@@ -1,4 +1,4 @@
-**Welcome to the R/Pharma GenAI Day 2026 Assistant!** 👋
+**Welcome to the [R/Pharma](https://rinpharma.com) GenAI Day 2026 Assistant!** 👋
 
 This is an early prototype — conference talks and agenda details will be integrated once announced later this year.
 
