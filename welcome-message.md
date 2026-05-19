@@ -1,13 +1,13 @@
 **Welcome to the [R/Pharma](https://rinpharma.com) GenAI Day 2026 Assistant!** 👋
 
-This is an early prototype — conference talks and agenda details will be integrated once announced later this year.
+The event is **June 16, 2026** — [register here](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg) (free).
 
-In the meantime, feel free to ask about generative AI in pharma and clinical research, or explore the R packages behind this app.
+Ask me about the schedule, speakers, and talks — or explore any topic in generative AI for pharma and clinical research.
 
 Here are a few things you can ask:
 
-* <span class="suggestion submit">What is R/Pharma GenAI Day?</span>
-* <span class="suggestion submit">How is generative AI being used in clinical research?</span>
-* <span class="suggestion submit">What R packages are used to build LLM apps?</span>
+* <span class="suggestion submit">What's on the schedule?</span>
+* <span class="suggestion submit">Which talks cover agentic workflows?</span>
+* <span class="suggestion submit">What's the shinymcp hangout about?</span>
 
-> **Disclaimer:** This is a prototype application. Conference content and knowledge will be integrated later in 2026. Responses are AI-generated and may not reflect official R/Pharma positions. Each session is limited to {{max_turns}} messages — refresh the page to start a new conversation.
+> **Disclaimer:** Responses are AI-generated and may not reflect official R/Pharma positions. Each session is limited to {{max_turns}} messages — refresh the page to start a new conversation.
