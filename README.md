@@ -8,7 +8,6 @@ This repository contains a shinychat-based application built for the 2026 R/Phar
 |---------|------|
 | [shinychat](https://posit-dev.github.io/shinychat/r/) | Chat UI component for Shiny |
 | [ellmer](https://ellmer.tidyverse.org) | LLM provider interface (Anthropic, OpenAI, etc.) |
-| [ragnar](https://ragnar.tidyverse.org) | RAG / knowledge retrieval (to be wired up) |
 | [bslib](https://rstudio.github.io/bslib/) | Shiny layout and theming |
 
 The app uses `chat_anthropic()` with `claude-sonnet-4-6` by default. Swap the `chat_*()` function in `app.R` to change provider.
@@ -60,9 +59,7 @@ curl -s "https://raw.githubusercontent.com/rinpharma/rinpharma/main/docs/ai-day/
 
 ## Knowledge Docs
 
-**What it is:** Larger reference documentation (R package docs, guides, etc.) intended for RAG retrieval via `ragnar`. These are *not* injected into the system prompt — they are fetched on demand based on the user's query.
-
-**When to add something here:** It's background reference material (package docs, tutorials, papers) that the model may need to look up rather than always knowing.
+**What it is:** Background reference material (R package docs, guides, etc.) fetched for development reference. Not currently wired into the app at runtime.
 
 `knowledge-docs/` is gitignored except for [`knowledge-docs/links.md`](knowledge-docs/links.md), which is the tracked index of every URL fetched. Sources are fetched as clean raw markdown via [defuddle.md](https://defuddle.md) — no AI summarisation.
 

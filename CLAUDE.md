@@ -22,7 +22,7 @@ Save to `context-docs/<name>.md` and update `context-docs/links.md`.
 
 ## Knowledge Docs
 
-**Retrieved on demand (RAG).** Larger reference material (package docs, guides) intended for retrieval via `ragnar` — not injected into the system prompt directly. Lives in `knowledge-docs/` (gitignored except `links.md`).
+**Development reference only.** Larger reference material (package docs, guides) fetched for context during development. Not currently wired into the app at runtime. Lives in `knowledge-docs/` (gitignored except `links.md`).
 
 To add a new source:
 
