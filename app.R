@@ -5,8 +5,15 @@ library(ellmer)
 
 MAX_USER_TURNS <- 10
 
-agenda <- readLines("agenda.md", warn = FALSE) |> paste(collapse = "\n")
-system_prompt <- interpolate_file("system-prompt.md", agenda = agenda)
+context_files <- setdiff(
+  list.files("context-docs", pattern = "\\.(md|yml)$", full.names = TRUE),
+  "context-docs/links.md"
+)
+context_docs <- paste(
+  vapply(context_files, \(f) paste(readLines(f, warn = FALSE), collapse = "\n"), character(1)),
+  collapse = "\n\n---\n\n"
+)
+system_prompt <- interpolate_file("system-prompt.md", context_docs = context_docs)
 welcome_message <- interpolate_file("welcome-message.md", max_turns = MAX_USER_TURNS)
 
 ui <- page_fillable(
