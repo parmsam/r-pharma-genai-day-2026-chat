@@ -8,19 +8,23 @@ A shinychat-based interactive app built for the 2026 R/Pharma GenAI Day, impleme
 
 ## Context Docs
 
-Reference docs in `context-docs/` are injected into the LLM system prompt at app startup. All `.md` files in the folder (except `links.md`) are concatenated and passed as the `context_docs` variable to `system-prompt.md`.
+**Always in the system prompt.** Small, event-specific content (schedule, speakers, abstracts). Everything here costs tokens on every turn — keep it focused.
 
-To add or refresh a source, fetch it with defuddle:
+All `.md` and `.yml` files in `context-docs/` (except `links.md`) are concatenated and passed as `context_docs` to `system-prompt.md` at startup. Restart the app to pick up changes.
+
+To add or refresh a source:
 
 ```
 /defuddle https://example.com/some-page
 ```
 
-Save the output to `context-docs/<name>.md` and add the URL to `context-docs/links.md`. Restart the app to pick up changes.
+Save to `context-docs/<name>.md` and update `context-docs/links.md`.
 
 ## Knowledge Docs
 
-Reference documentation lives in `knowledge-docs/` (gitignored). To add a new source, use the `/defuddle` skill:
+**Retrieved on demand (RAG).** Larger reference material (package docs, guides) intended for retrieval via `ragnar` — not injected into the system prompt directly. Lives in `knowledge-docs/` (gitignored except `links.md`).
+
+To add a new source:
 
 ```
 /defuddle https://example.com/some-page
@@ -32,4 +36,4 @@ Or via curl:
 curl -s "https://defuddle.md/<url-without-scheme>" > knowledge-docs/<name>.md
 ```
 
-`knowledge-docs/links.md` is the tracked index of all fetched URLs — update it whenever a new source is added.
+Update `knowledge-docs/links.md` whenever a new source is added.

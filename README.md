@@ -37,7 +37,11 @@ Get a key at [console.anthropic.com](https://console.anthropic.com).
 
 ## Context Docs
 
-Event reference material lives in `context-docs/` and is injected directly into the LLM system prompt at app startup. All `.md` and `.yml` files in the folder (except `links.md`) are concatenated and passed as context — no retrieval step needed given the small size.
+**What it is:** Small, curated, event-specific content that is injected directly into the LLM system prompt on every request. The model always has this information in view — no retrieval step.
+
+**When to add something here:** It's directly about this event (schedule, speakers, abstracts, FAQs). Keep it small; everything in this folder costs tokens on every turn.
+
+`context-docs/` is checked into git. All `.md` and `.yml` files (except `links.md`) are concatenated and passed as the `context_docs` variable to `system-prompt.md` at app startup.
 
 | File | Contents |
 |------|----------|
@@ -54,24 +58,26 @@ curl -s "https://defuddle.md/rinpharma.com/docs/ai-day/" > context-docs/ai-day.m
 curl -s "https://raw.githubusercontent.com/rinpharma/rinpharma/main/docs/ai-day/schedule.yml" > context-docs/schedule.yml
 ```
 
-## Knowledge Sources
+## Knowledge Docs
 
-> Note: fetched content is stored in `knowledge-docs/` (gitignored except for [`knowledge-docs/links.md`](knowledge-docs/links.md)). Sources were fetched as clean raw markdown via [defuddle.md](https://defuddle.md) — no AI summarisation.
+**What it is:** Larger reference documentation (R package docs, guides, etc.) intended for RAG retrieval via `ragnar`. These are *not* injected into the system prompt — they are fetched on demand based on the user's query.
 
-`knowledge-docs/links.md` is a tracked index of every URL fetched, organised by category. Update it whenever a new source is added.
+**When to add something here:** It's background reference material (package docs, tutorials, papers) that the model may need to look up rather than always knowing.
 
-To repopulate `knowledge-docs/` yourself, you can use `curl` directly:
+`knowledge-docs/` is gitignored except for [`knowledge-docs/links.md`](knowledge-docs/links.md), which is the tracked index of every URL fetched. Sources are fetched as clean raw markdown via [defuddle.md](https://defuddle.md) — no AI summarisation.
+
+To repopulate `knowledge-docs/` yourself:
 
 ```bash
 curl -s "https://defuddle.md/posit-dev.github.io/shinychat/r/index.html" > knowledge-docs/shinychat.md
 ```
 
-Or if you're using Claude Code with the `/defuddle` skill installed (see `.claude/skills/defuddle/`), you can run:
+Or with the `/defuddle` skill in Claude Code:
 
 ```
 /defuddle https://posit-dev.github.io/shinychat/r/index.html
 ```
 
-The skill handles filename inference and saves to `knowledge-docs/` automatically. Note: defuddle does not work with PDFs — fetch those separately.
+Note: defuddle does not work with PDFs — fetch those separately.
 
 
