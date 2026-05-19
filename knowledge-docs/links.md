@@ -13,3 +13,8 @@
 | ellmer-tool-calling.md | https://ellmer.tidyverse.org/articles/tool-calling.html | ellmer |
 | ragnar.md | https://ragnar.tidyverse.org | ragnar |
 | ragnar-intro.md | https://ragnar.tidyverse.org/articles/ragnar.html | ragnar |
+| vitals.md | https://vitals.tidyverse.org/llms.txt | vitals |
+| vitals-get-started.md | https://vitals.tidyverse.org/articles/vitals.md | vitals |
+| vitals-analysis.md | https://vitals.tidyverse.org/articles/analysis.md | vitals |
+| vitals-solvers.md | https://vitals.tidyverse.org/articles/solvers.md | vitals |
+| vitals-writing-evals.md | https://vitals.tidyverse.org/articles/writing-evals.md | vitals |

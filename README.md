@@ -9,6 +9,7 @@ This repository contains a shinychat-based application built for the 2026 R/Phar
 | [shinychat](https://posit-dev.github.io/shinychat/r/) | Chat UI component for Shiny |
 | [ellmer](https://ellmer.tidyverse.org) | LLM provider interface (Anthropic, OpenAI, etc.) |
 | [bslib](https://rstudio.github.io/bslib/) | Shiny layout and theming |
+| [vitals](https://vitals.tidyverse.org) | LLM evaluation framework |
 
 The app uses `chat_anthropic()` with `claude-sonnet-4-6` by default. Swap the `chat_*()` function in `app.R` to change provider.
 
@@ -33,6 +34,23 @@ ANTHROPIC_API_KEY=your-key-here
 ```
 
 Get a key at [console.anthropic.com](https://console.anthropic.com).
+
+## Evals
+
+`eval.R` uses [vitals](https://vitals.tidyverse.org) to evaluate the app against two task types:
+
+| Task | What it checks |
+|------|----------------|
+| `factual_task` | Correct answers on schedule, speaker, and talk questions |
+| `scope_task` | Out-of-scope requests are politely declined |
+
+Run with:
+
+```r
+source("eval.R")
+```
+
+Results are written to the vitals log directory and viewable with `vitals_view()`.
 
 ## Context Docs
 
