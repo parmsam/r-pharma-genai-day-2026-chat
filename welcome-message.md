@@ -1,4 +1,4 @@
-**Welcome to the [R/Pharma](https://rinpharma.com) GenAI Day 2026 Assistant!** 👋
+**Welcome to the [R/Pharma](https://rinpharma.com) [GenAI Day 2026](https://rinpharma.com/docs/ai-day/) Assistant!** 👋
 
 The event is **June 16, 2026** — [register here](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg) (free).
 
