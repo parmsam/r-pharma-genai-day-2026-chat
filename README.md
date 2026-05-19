@@ -35,6 +35,25 @@ ANTHROPIC_API_KEY=your-key-here
 
 Get a key at [console.anthropic.com](https://console.anthropic.com).
 
+## Context Docs
+
+Event reference material lives in `context-docs/` and is injected directly into the LLM system prompt at app startup. All `.md` and `.yml` files in the folder (except `links.md`) are concatenated and passed as context — no retrieval step needed given the small size.
+
+| File | Contents |
+|------|----------|
+| `ai-day.md` | R/Pharma genAI Day 2026 event overview and details |
+| `zoom-event.md` | Session schedule with speakers (clipped from Zoom event page) |
+| `schedule.yml` | Full schedule with talk abstracts, speaker bios, and affiliations |
+| `links.md` | Index of source URLs and fetch dates |
+
+To refresh a source, re-fetch it and overwrite the file, then restart the app:
+
+```bash
+curl -s "https://defuddle.md/rinpharma.com/docs/ai-day/" > context-docs/ai-day.md
+# or for GitHub-hosted files:
+curl -s "https://raw.githubusercontent.com/rinpharma/rinpharma/main/docs/ai-day/schedule.yml" > context-docs/schedule.yml
+```
+
 ## Knowledge Sources
 
 > Note: fetched content is stored in `knowledge-docs/` (gitignored except for [`knowledge-docs/links.md`](knowledge-docs/links.md)). Sources were fetched as clean raw markdown via [defuddle.md](https://defuddle.md) — no AI summarisation.
