@@ -1,10 +1,8 @@
 **Welcome to the [R/Pharma](https://rinpharma.com) [GenAI Day 2026](https://rinpharma.com/docs/ai-day/) Assistant!** 👋
 
-The third annual R/Pharma GenAI Day — **June 16, 2026** · Free virtual event · [Register here](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg)
+The third annual R/Pharma GenAI Day — **June 16, 2026** · Free virtual event · [Register here](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg) · [Submit a booth](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012)
 
 Ask me anything about the schedule, speakers, talks, or using GenAI in drug development.
-
-Have an open source project to share? [Submit a virtual booth](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012) for the exhibition hall.
 
 Here are a few things you can ask:
 
