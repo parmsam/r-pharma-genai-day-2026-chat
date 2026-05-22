@@ -1,0 +1,51 @@
+name: Refresh context docs
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # Daily at 1pm UTC (9am EDT)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check if event has passed
+        id: date_check
+        run: |
+          if [[ "$(date -u +%Y-%m-%d)" > "2026-06-16" ]]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Event has passed — skipping refresh."
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Fetch schedule.yml
+        if: steps.date_check.outputs.skip == 'false'
+        run: |
+          curl -sf "https://raw.githubusercontent.com/rinpharma/rinpharma/main/data/schedule.yml" \
+            > context-docs/schedule.yml
+
+      - name: Fetch ai-day.md
+        if: steps.date_check.outputs.skip == 'false'
+        run: |
+          curl -sf "https://defuddle.md/rinpharma.com/docs/ai-day/" \
+            > context-docs/ai-day.md
+
+      - name: Commit if changed
+        if: steps.date_check.outputs.skip == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add context-docs/schedule.yml context-docs/ai-day.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh context docs $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+          fi
