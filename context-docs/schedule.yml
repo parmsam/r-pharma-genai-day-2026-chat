@@ -1,15 +1,37 @@
 - time: "10:00"
   type: "workshop"
-  title: "To be announced"
+  title: "Agents for Correct, Transparent, and Reproducible Data Analysis"
   duration: "40 min"
-  abstract: "Abstract to follow"
+  abstract: >
+    How do we build competent data analysis agents? Data analysis requires a 
+    willingness to pause, question conclusions, and dig into subtleties. Frontier 
+    LLMs, however, are optimized to push tasks toward completion, not to slow down 
+    when something seems off. This tendency works well for coding agents, where 
+    success is often verifiable. But for data analysis, verification is more 
+    complicated, and autonomous work by the agent can be at odds with the spirit 
+    of the discipline. Drawing on our experience building data analysis agents, 
+    we'll share evaluations that expose where LLM-driven analysis goes wrong and 
+    design patterns that keep analyses correct, transparent, and reproducible.
   speakers:
     - name: "Sara Altman"
       affiliation: "Posit"
-      bio: " "
+      bio: >
+        Sara Altman is a Senior Developer Advocate on the AI Core team at Posit, 
+        where she focuses on how AI can be effectively and responsibly used for 
+        data science. Previously, she helped build Posit Academy and taught data 
+        science and R at Stanford. Sara authors the Posit AI Newsletter along with 
+        Simon Couch.
     - name: "Simon Couch"
       affiliation: "Posit"
-      bio: " "
+      bio: >
+        Simon Couch builds tools that make the work of data science more joyful and 
+        effective. As an engineer on the AI Core Team at Posit, his work spans coding 
+        agents, model evaluations, inference engineering, and next-edit-suggestion 
+        systems. Drawing on his background in statistics, Simon spent several years 
+        authoring and maintaining core packages in the open-source tidymodels 
+        framework—like stacks, broom, and infer — before shifting his focus to LLMs. 
+        He blogs about his work at simonpcouch.com. Simon authors the Posit AI Newsletter 
+        along with Sara Altman.
 
 - time: "10:40"
   type: "break"
@@ -35,7 +57,7 @@
     AI-assisted programming, enabling statistical programmers to harness LLMs 
     effectively in their day-to-day work.
   speakers:
-    - name: "Nikolas Burkhoff"
+    - name: "Nikolas Burkoff"
       affiliation: "Johnson & Johnson"
       bio: >
         Nik is a scientific software developer with over a decade of experience solving 
@@ -102,7 +124,7 @@
       affiliation: "Abbvie"
       bio: " "
 
-- time: "12:50"
+- time: "12:00"
   type: "hangout"
   title: "R/Pharma Hangout: shinymcp"
   duration: "50 min"
@@ -350,12 +372,34 @@
 
 - time: "15:40"
   type: "talk"
-  title: "To be announced"
+  title: "Agentic AI Basics: How LLMs Work"
   duration: "20 min"
-  abstract: "Abstract to follow"
+  abstract: >
+    AI is everywhere. No doubt that your organization is exploring how to integrate LLMs 
+    and GenAI into daily work. Now we have AI Agents and MCPs - the gap continues to widen 
+    between simple prompting in an LLM interface to fully automated agentic coding that can 
+    handle routine tasks end-to-end. This presentation will explore how one might help 
+    close that gap through a use-case scenario that was delivered as a hands-on workshop 
+    at the 2026 PHUSE US Connect in Austin, TX. The objective of the workshop was for 
+    participants to leave the session with (i) an understanding of the fundamental concepts 
+    of how LLMs and AI solutions operate, (ii) a sense of the ease of entry to get started 
+    with agentic coding and (iii) an appreciation for the effort required to engineer the 
+    initial 'first solution' into a robust and stable ready-for-production solution.
   speakers:
-    - name: "Presenter to follow"
-      affiliation: ""
+    - name: "Michael Rimler"
+      affiliation: "GSK"
+      bio: >
+        Michael leads the Flu/Covid Clinical Programming group within GSK Biostatistics. 
+        He has 15 years of experience in the pharmaceutical industry, providing technical, 
+        analytical, and leadership support to clinical reporting teams. In 2019, Michael 
+        launched the GSK Clinical Programming’s R Adoption initiative, is a founding 
+        council member for pharmaverse, and was the Chair of the 2023 PHUSE US Connect. 
+        Michael also serves on the PHUSE Board of Directors as Open Source Technologies 
+        Director, a position held since 2023.  In a previous life, he sat on the faculty 
+        of Xavier University as an Assistant Professor of Economics. He lives in 
+        Cincinnati, Ohio with his wife, two kids, and a dog.
+    - name: "Mike Stackhouse"
+      affiliation: "Atorus"
       bio: " "
 
 - time: "16:00"

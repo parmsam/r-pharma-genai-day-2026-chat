@@ -1,7 +1,8 @@
 ---
-title: "R/Pharma genAI Day - FREE EVENT"
+title: "R/Pharma genAI Day 2026"
+site: "events.zoom.us"
 source: "https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg"
-fetched: "2026-05-19"
+fetched: "2026-05-22 (manually copied — page requires authentication)"
 ---
 
 # R/Pharma genAI Day - FREE EVENT
@@ -14,53 +15,33 @@ Open Source in Pharma is a non-profit organization that builds community and edu
 
 ## Sessions
 
-### To Be Announced
-**Tue, Jun 16, 2026 — 10:00 AM to 10:40 AM EDT**
-- Sara Altman
-- Simon Couch
-- Virtual
+**Workshop** — Tue, Jun 16, 2026 10:00 AM to 10:40 AM EDT
+Sara Altman, Simon Couch
 
-### Break
-**Tue, Jun 16, 2026 — 10:40 AM to 11:00 AM EDT**
+**Break** — Tue, Jun 16, 2026 10:40 AM to 11:00 AM EDT
 
-### AI Session 1
-**Tue, Jun 16, 2026 — 11:00 AM to 12:00 PM EDT**
-- Nikolas Burkhoff
-- Isabella Velasquez
-- Ning Leng
-- Virtual
+**AI Session 1** — Tue, Jun 16, 2026 11:00 AM to 12:00 PM EDT
+Nikolas Burkoff, Isabella Velasquez, Ning Leng
 
-### R/Pharma Hangout - shinymcp
-**Tue, Jun 16, 2026 — 12:00 PM to 12:50 PM EDT**
-- James Wade
-- Eric Nantz
-- Jared Woolfolk
-- Virtual
+**R/Pharma Hangout - shinymcp** — Tue, Jun 16, 2026 12:00 PM to 12:50 PM EDT
+James Wade, Eric Nantz, Jared Woolfolk
 
-### Break
-**Tue, Jun 16, 2026 — 12:50 PM to 1:00 PM EDT**
+**Break** — Tue, Jun 16, 2026 12:50 PM to 1:00 PM EDT
 
-### AI Session 2
-**Tue, Jun 16, 2026 — 1:00 PM to 2:20 PM EDT**
-- Jeremy Zhang
-- Peng Zhang
-- Indraneel Chakraborty
-- Virtual
+**AI Session 2** — Tue, Jun 16, 2026 1:00 PM to 2:20 PM EDT
+Jeremy Zhang, Peng Zhang, Indraneel Chakraborty
 
-### Break
-**Tue, Jun 16, 2026 — 2:20 PM to 2:40 PM EDT**
+**Break** — Tue, Jun 16, 2026 2:20 PM to 2:40 PM EDT
 
-### AI Session 3
-**Tue, Jun 16, 2026 — 2:40 PM to 4:00 PM EDT**
-- Husain Attarwala
-- Weijie Zhang
-- Xing Chen
-- Virtual
+**AI Session 3** — Tue, Jun 16, 2026 2:40 PM to 4:00 PM EDT
+Husain Attarwala, Weijie Zhang, Xing Chen
 
 ## FAQ
 
 ### Where can I find abstracts?
-Talk abstracts and speaker bios are available on the R/Pharma AI page: https://rinpharma.com/docs/ai-day/
+
+Talk abstracts and speaker bios are available on the R/Pharma AI page (https://rinpharma.com/docs/ai-day/).
 
 ### Has this event been held before?
-This is the third R/Pharma genAI single day event. For previous event details check out the R/Pharma [website](https://rinpharma.com/docs/events/) and [YouTube channel](https://www.youtube.com/rinpharma).
+
+This is the third R/Pharma genAI single day event. For previous event details check out the R/Pharma website and YouTube channel.

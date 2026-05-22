@@ -4,7 +4,7 @@ site: "R/Pharma"
 source: "https://rinpharma.com/docs/ai-day/"
 language: "en"
 description: "Information on R/Pharma’s third genAI single day event"
-word_count: 409
+word_count: 420
 ---
 
 The third Annual R/Pharma genAI Day will be held virtually on **June 16, 2026**. This free single day event will focus on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
@@ -29,7 +29,7 @@ Tap or hover on talk titles for abstracts and speaker names for bios. All times 
 
 Sara Altman (Posit), Simon Couch (Posit)  
 
-To be announced 40 min
+Agents for Correct, Transparent, and Reproducible Data Analysis 40 min
 
 10:40
 
@@ -37,7 +37,7 @@ To be announced 40 min
 
 11:00
 
-Nikolas Burkhoff (Johnson & Johnson)  
+Nikolas Burkoff (Johnson & Johnson)  
 
 Using LLMs to generate Teal applications: from proof of concept to production 20 min
 
@@ -53,7 +53,7 @@ Eric Zhang (Eikon Therapeutics), Ning Leng (Abbvie)
 
 From R, Shiny, and Container to AI Skills: The R Consortium Submissions Working Group Call for Contributors 20 min
 
-12:50
+12:00
 
 James Wade (Dow)  
 
@@ -111,9 +111,9 @@ Scheduled Clinical Insights: AI-Assisted Quarto Reporting for Oncology Studies 2
 
 15:40
 
-Presenter to follow  
+Michael Rimler (GSK), Mike Stackhouse (Atorus)  
 
-To be announced 20 min
+Agentic AI Basics: How LLMs Work 20 min
 
 16:00
 
