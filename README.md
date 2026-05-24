@@ -70,9 +70,10 @@ Results are written to the vitals log directory and viewable with `vitals_view()
 To refresh a source, re-fetch it and overwrite the file, then restart the app:
 
 ```bash
-curl -s "https://defuddle.md/rinpharma.com/docs/ai-day/" > context-docs/ai-day.md
-# or for GitHub-hosted files:
-curl -s "https://raw.githubusercontent.com/rinpharma/rinpharma/main/docs/ai-day/schedule.yml" > context-docs/schedule.yml
+# ai-day.md: use r.jina.ai — rinpharma.com is Cloudflare-protected and defuddle.md fails from CI/headless environments
+curl -s "https://r.jina.ai/rinpharma.com/docs/ai-day/" > context-docs/ai-day.md
+# schedule.yml: fetch directly from GitHub raw
+curl -s "https://raw.githubusercontent.com/rinpharma/rinpharma/main/data/schedule.yml" > context-docs/schedule.yml
 ```
 
 ## Knowledge Docs
