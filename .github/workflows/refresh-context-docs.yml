@@ -34,8 +34,15 @@ jobs:
       - name: Fetch ai-day.md
         if: steps.date_check.outputs.skip == 'false'
         run: |
-          curl -sf "https://defuddle.md/rinpharma.com/docs/ai-day/" \
-            > context-docs/ai-day.md
+          tmp=$(mktemp)
+          curl -s --retry 3 --retry-delay 10 --retry-all-errors \
+            "https://defuddle.md/rinpharma.com/docs/ai-day/" -o "$tmp"
+          if [[ $(wc -c < "$tmp") -gt 500 ]]; then
+            mv "$tmp" context-docs/ai-day.md
+          else
+            echo "Fetch returned too little content — keeping existing ai-day.md"
+            rm "$tmp"
+          fi
 
       - name: Commit if changed
         if: steps.date_check.outputs.skip == 'false'
