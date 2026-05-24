@@ -1,1 +1,186 @@
-<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-I7zwxVgr6JaomNv0OJdZpA&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script nonce="I7zwxVgr6JaomNv0OJdZpA">(function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'Z8Kehc69MLPkgAh.mIFc9mFDyv9PoRzB9XMyONTge24-1779631657-1.2.1.1-_vlGSmqpQ66yTdA6tQLVeld3soT0QAclR0pT0Dicl_8SEKgGTYrRJaWm8QT7TtaE',cITimeS: '1779631657',cN: 'I7zwxVgr6JaomNv0OJdZpA',cRay: 'a00cde218e522f18',cTplB: '0',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/rinpharma.com/docs/ai-day/?__cf_chl_tk=0Z5lmBGFyGiyxHLi.Jda34M_ofygXP9s5.I0VG9Epr8-1779631657-1.0.1.1-XIaE.omW5TmU8beyox3qKwbdgcoNi.zlk5WwoKi.X9c",cvId: '3',cZone: 'defuddle.md',fa:"/rinpharma.com/docs/ai-day/?__cf_chl_f_tk=0Z5lmBGFyGiyxHLi.Jda34M_ofygXP9s5.I0VG9Epr8-1779631657-1.0.1.1-XIaE.omW5TmU8beyox3qKwbdgcoNi.zlk5WwoKi.X9c",md: 'ebobu22TUqHKWyh1j7FGnbpUXIcDy2vTQ9zYag_297k-1779631657-1.2.1.1-CN7skD3oW0QGETA8zBsF0o4urJDsSgl.ficXW4u1_qNLLe8OHAh2r4Un2IdNuu5E_TiSSlhSeM4VCVTPufGJsMnSaiCbRADkpm_1o8_cDLDA9IbmTL10GB49yQ9b2hy6iaYh_p0cq7Yny_1sRAYQfHalo31jOwitDF0EX.ZgwBd7vie96KZSZI6LUNVrak058CLeakgFGBP3z6cMDgUdjRhes7pYpLNEkoYl6fVtZ_qLMcgKfwNfuDhUFr4.5aGumIp3fwlo73YqPtJIwD7r47tEsHB386AhosmDZIFU05lRtQCBhNh55qF2MWR38xeyG_lt9aOS.OYZOl3LI0ovXdcCS3rGVM9PcD37hLIMtkfffbF7zJfu8tEp.jm6gv78jmeoUSzOT_kz_YpHB3a1ZZ8H0klPfrRxSP.1_Xvd4jOI1KqTw6AANjWw_72bTe5GMbCUr1_Vhye10hTa0G57lOQ4hfzFWZ_gFVZpZTg_kn9ZI1I_qGnE9q6eQMTNbUJdGhFGaMNI7WaaN4kq1.eEXAl4DHJMR6vrkqU.7pqK5dDu7rPrwz6IwsIwFoE.N43fjZq4EdFYmRvbc38RN49cm8xFJDo1V_UKEt.hkkhBM7XEbXPiDrhKR0zKY2ByCBgMzm28yIGtk1SRKHCA0GkJLVEPndeRlyW_TimHehmTjH3eo8LImk9m9ZxZ2SApZ9xQ0WYIr5J6BUcO0rGJCxjYZNXYtXTaKujcP1vKSrKfCdaz36l3.5gN_ADb7al4GIx4rBeQSyKhRnc3mO8KJw0nXx0kNpmVXKogeS5Ni9OHnHdGk9OdHPmmRb.In2BHcKGhAzs_9vw0P.Sm907Dilm8xnrbNee2uGCTvXXjGMzudBZDCYUpcbIvSnDmbznGKuUJfgx2DTz9NkWR9s_t.jOmWYchB806SRQxY3Crt2yPNTMt5UkDl15e16HTRDrBxqheTahhnWphhhisedASf9DFNA',mdrd: 'AD1gKOnQCUUiKWLVwlWCNSeZykvldQxttt4CwiJjwQM-1779631657-1.2.1.1-TlUcblxMpYdgTeaDU0lJ0ln99NI8izhuahi1g5yUJN.P9wXTUQQcsUKjMa4Y02UM7rJsMyWpx1ojsxiI0E3rcxwMtbxk8ME3enzBBNKz3o5Awmwz_FLmirw8B4C01XFvT9MOU7TQmfU12S9lf_UI1YA9SMOuLhooGELp5zcbDKXykFlUAFS4SD.yNxuhTgVkrWwaz1FAXyriLHim0lvcFA',};var a = document.createElement('script');a.nonce = 'I7zwxVgr6JaomNv0OJdZpA';a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a00cde218e522f18';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/rinpharma.com/docs/ai-day/?__cf_chl_rt_tk=0Z5lmBGFyGiyxHLi.Jda34M_ofygXP9s5.I0VG9Epr8-1779631657-1.0.1.1-XIaE.omW5TmU8beyox3qKwbdgcoNi.zlk5WwoKi.X9c"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>
+---
+title: "R/Pharma genAI Day 2026"
+subtitle: "Information on R/Pharma's third genAI single day event"
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css">
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+        <link rel="stylesheet" href="schedule.css">
+        <script src="schedule.js"></script>    
+---
+
+:::: {.hero-buttons-ai}
+[genAI Day Registration](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank" data-tippy-content="Register for the virtual event (free)"}
+
+[Expo Submission](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" target="_blank" data-tippy-content="Submit a booth for the genAI Expo session"}
+::::
+
+The third Annual R/Pharma genAI Day will be held virtually on **June 16, 2026**.  This free single day event will focus on examples of using generative and agentic artificial intelligence with an emphasis in the drug development space and clinical domain.
+
+This page contains details and a schedule for the event.  For registration and other information, please visit [R/Pharma genAI Day](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg){target="_blank"}.
+
+## Calling all Open Source Developers!
+
+We will be featuring a virtual exhibition hall that will be open throughout the event.  This is a chance for you to showcase your awesome open source creations!  Please consider sharing your work in a virtual booth if you:
+
+- have an R or Python package or app
+- have created a useful AI agent or skill
+- contribute to the community through a YouTube channel, blog or podcast
+
+If you wish to include a virtual booth please use contribute using the [EXPO Form](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012){target="_blank"}.
+
+## Schedule
+
+Tap or hover on talk titles for abstracts and speaker names for bios.  All times are in EDT.
+
+```{r}
+#| echo: FALSE
+#| warning: FALSE
+library(yaml)
+library(purrr)
+library(tibble)
+library(htmltools)
+
+file <- here::here("data", "schedule.yml")
+raw <- yaml::read_yaml(file)
+
+normalize_speakers <- function(s) {
+  if (is.null(s)) return(NULL)
+  lapply(s, function(x) {
+    list(
+      name = x$name,
+      affiliation = if (!is.null(x$affiliation) && nzchar(x$affiliation)) x$affiliation else NULL,
+      bio = x$bio %||% ""
+    )
+  })
+}
+
+schedule <- tibble(
+  time = map_chr(raw, "time"),
+  type = map_chr(raw, "type"),
+  title = map_chr(raw, "title"),
+  duration = map_chr(raw, "duration"),
+  abstract = map_chr(raw, ~ .x$abstract %||% ""),
+  speakers = map(raw, ~ normalize_speakers(.x$speakers))
+)
+
+speaker_tag <- function(name, affiliation, bio) {
+
+  has_text <- function(x) {
+    !is.null(x) && length(x) == 1 && !is.na(x) && nzchar(x)
+  }
+
+  label <- name
+  if (has_text(affiliation)) {
+    label <- paste0(name, " (", affiliation, ")")
+  }
+
+  if (has_text(bio)) {
+    tags$span(
+      class = "has-tooltip speaker",
+      `data-tippy-content` = paste0(
+        "<strong>", name, "</strong>",
+        if (has_text(affiliation)) {
+          paste0("<br><em>", affiliation, "</em>")
+        } else "",
+        "<br><br>", bio
+      ),
+      HTML(label)
+    )
+  } else {
+    tags$span(class = "speaker", label)
+  }
+}
+
+speakers_block <- function(speakers) {
+
+  if (is.null(speakers) || length(speakers) == 0) return(NULL)
+
+  # 🔑 unwrap common YAML/list-column nesting issue
+  if (length(speakers) == 1 && is.list(speakers[[1]]) && !is.null(speakers[[1]][[1]]$name)) {
+    speakers <- speakers[[1]]
+  }
+
+  tagList(
+    purrr::imap(speakers, function(sp, i) {
+      tagList(
+        speaker_tag(
+          sp$name %||% "",
+          sp$affiliation %||% "",
+          sp$bio %||% NULL
+        ),
+        if (i < length(speakers)) ", "
+      )
+    })
+  )
+}
+
+title_tag <- function(title, abstract) {
+
+  has_text <- function(x) {
+    !is.null(x) && length(x) == 1 && !is.na(x) && nzchar(x)
+  }
+
+  if (has_text(abstract)) {
+    tags$span(
+      class = "has-tooltip talk-title",
+      `data-tippy-content` = paste0(
+        "<strong>Abstract</strong><br><br>", abstract
+      ),
+      title
+    )
+  } else {
+    tags$span(class = "talk-title", title)
+  }
+}
+
+render_row <- function(row) {
+
+  if (row$type == "break") {
+    return(
+      tags$div(class = "schedule-row break",
+        tags$div(class = "time", row$time),
+        tags$div(class = "content",
+          tags$strong(row$title),
+          tags$span(class = "duration", row$duration)
+        )
+      )
+    )
+  }
+
+  tags$div(class = "schedule-row talk",
+    tags$div(class = "time", row$time),
+    tags$div(class = "content",
+
+      speakers_block(row$speakers),
+
+      if (!is.null(row$speakers) && length(row$speakers) > 0) tags$br(),
+
+      tags$div(class = "title-row",
+        title_tag(row$title, row$abstract),
+        tags$span(class = "duration", row$duration)
+      )
+    )
+  )
+}
+
+schedule_html <- tags$div(class = "schedule-container",
+  tagList(
+    lapply(seq_len(nrow(schedule)), function(i) {
+      render_row(schedule[i, ])
+    })
+  )
+)
+```
+
+```{r}
+#| echo: FALSE
+#| output: asis
+schedule_html
+```
