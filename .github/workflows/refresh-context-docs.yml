@@ -34,9 +34,8 @@ jobs:
       - name: Fetch ai-day.md
         if: steps.date_check.outputs.skip == 'false'
         run: |
-          # rinpharma.com is behind Cloudflare; defuddle requires a browser UA to pass the check
-          curl -sf -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36" \
-            "https://defuddle.md/rinpharma.com/docs/ai-day/" \
+          # r.jina.ai handles Cloudflare-protected pages reliably from CI
+          curl -sf "https://r.jina.ai/rinpharma.com/docs/ai-day/" \
             > context-docs/ai-day.md
 
       - name: Commit if changed
