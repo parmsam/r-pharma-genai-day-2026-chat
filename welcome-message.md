@@ -10,4 +10,4 @@ Here are a few things you can ask:
 * <span class="suggestion submit">Which talks cover agentic workflows?</span>
 * <span class="suggestion submit">What's the shinymcp hangout about?</span>
 
-> **Disclaimer:** Responses are AI-generated and may not reflect official R/Pharma positions. Sessions are limited to {{max_turns}} messages — refresh the page to start a new conversation.
+> **Disclaimer:** Responses are AI-generated and may not reflect official R/Pharma positions. Do not upload or enter confidential information. Sessions are limited to {{max_turns}} messages — refresh the page to start a new conversation.
