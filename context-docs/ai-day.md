@@ -2,7 +2,7 @@ Title: R/Pharma genAI Day 2026 – R/Pharma
 
 URL Source: http://rinpharma.com/docs/ai-day/
 
-Published Time: Sat, 23 May 2026 06:05:18 GMT
+Published Time: Sat, 23 May 2026 06:05:17 GMT
 
 Markdown Content:
 Information on R/Pharma’s third genAI single day event
@@ -11,7 +11,7 @@ The third Annual R/Pharma genAI Day will be held virtually on **June 16, 2026**.
 
 This page contains details and a schedule for the event. For registration and other information, please visit [R/Pharma genAI Day](https://events.zoom.us/ev/AkKYQ7Uryr8k8HeuQ7F6rkZTHJwjHlP6gxu14Z2s1LYb0kswLdDT~ApU4J3CViJWrwmjZhnw0nwGzDFCxNGoMHJAw01NbG30yNwnVwf9IJQkvOg).
 
-## Calling all Open Source Developers!
+## Calling all Open Source Developers![](http://rinpharma.com/docs/ai-day/#calling-all-open-source-developers)
 
 We will be featuring a virtual exhibition hall that will be open throughout the event. This is a chance for you to showcase your awesome open source creations! Please consider sharing your work in a virtual booth if you:
 
@@ -21,7 +21,7 @@ We will be featuring a virtual exhibition hall that will be open throughout the 
 
 If you wish to include a virtual booth please use contribute using the [EXPO Form](https://docs.google.com/forms/d/e/1FAIpQLSeTxjipa92YWmM6ZZhb2C6hFKmlB2b7eYaQ33lQZIIu-wuOPw/viewform?usp=sharing&ouid=116517077506150901012).
 
-## Schedule
+## Schedule[](http://rinpharma.com/docs/ai-day/#schedule)
 
 Tap or hover on talk titles for abstracts and speaker names for bios. All times are in EDT.
 
