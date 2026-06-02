@@ -6,8 +6,8 @@ library(ellmer)
 MAX_USER_TURNS <- 10
 
 context_files <- setdiff(
-  list.files("context-docs", pattern = "\\.(md|yml)$", full.names = TRUE),
-  "context-docs/links.md"
+  list.files("app-context", pattern = "\\.(md|yml)$", full.names = TRUE),
+  "app-context/links.md"
 )
 context_docs <- paste(
   vapply(context_files, \(f) paste(readLines(f, warn = FALSE), collapse = "\n"), character(1)),

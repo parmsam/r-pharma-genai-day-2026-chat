@@ -29,7 +29,7 @@ jobs:
         if: steps.date_check.outputs.skip == 'false'
         run: |
           curl -sf "https://raw.githubusercontent.com/rinpharma/rinpharma/main/data/schedule.yml" \
-            > context-docs/schedule.yml
+            > app-context/schedule.yml
 
       - name: Fetch ai-day.md
         if: steps.date_check.outputs.skip == 'false'
@@ -38,14 +38,14 @@ jobs:
           # r.jina.ai (https://jina.ai/reader/) handles JS-rendered / Cloudflare-protected
           # pages and works reliably from GitHub Actions.
           curl -sf "https://r.jina.ai/rinpharma.com/docs/ai-day/" \
-            > context-docs/ai-day.md
+            > app-context/ai-day.md
 
       - name: Commit if changed
         if: steps.date_check.outputs.skip == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add context-docs/schedule.yml context-docs/ai-day.md
+          git add app-context/schedule.yml app-context/ai-day.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

@@ -52,13 +52,13 @@ source("eval.R")
 
 Results are written to the vitals log directory and viewable with `vitals_view()`.
 
-## Context Docs
+## App Context
 
 **What it is:** Small, curated, event-specific content that is injected directly into the LLM system prompt on every request. The model always has this information in view — no retrieval step.
 
 **When to add something here:** It's directly about this event (schedule, speakers, abstracts, FAQs). Keep it small; everything in this folder costs tokens on every turn.
 
-`context-docs/` is checked into git. All `.md` and `.yml` files (except `links.md`) are concatenated and passed as the `context_docs` variable to `system-prompt.md` at app startup.
+`app-context/` is checked into git. All `.md` and `.yml` files (except `links.md`) are concatenated and passed as the `context_docs` variable to `system-prompt.md` at app startup.
 
 | File | Contents |
 |------|----------|
@@ -71,21 +71,21 @@ To refresh a source, re-fetch it and overwrite the file, then restart the app:
 
 ```bash
 # ai-day.md: use r.jina.ai — rinpharma.com is Cloudflare-protected and defuddle.md fails from CI/headless environments
-curl -s "https://r.jina.ai/rinpharma.com/docs/ai-day/" > context-docs/ai-day.md
+curl -s "https://r.jina.ai/rinpharma.com/docs/ai-day/" > app-context/ai-day.md
 # schedule.yml: fetch directly from GitHub raw
-curl -s "https://raw.githubusercontent.com/rinpharma/rinpharma/main/data/schedule.yml" > context-docs/schedule.yml
+curl -s "https://raw.githubusercontent.com/rinpharma/rinpharma/main/data/schedule.yml" > app-context/schedule.yml
 ```
 
-## Knowledge Docs
+## Dev Context
 
 **What it is:** Background reference material (R package docs, guides, etc.) fetched for development reference. Not currently wired into the app at runtime.
 
-`knowledge-docs/` is gitignored except for [`knowledge-docs/links.md`](knowledge-docs/links.md), which is the tracked index of every URL fetched. Sources are fetched as clean raw markdown via [defuddle.md](https://defuddle.md) — no AI summarisation.
+`dev-context/` is gitignored except for [`dev-context/links.md`](dev-context/links.md), which is the tracked index of every URL fetched. Sources are fetched as clean raw markdown via [defuddle.md](https://defuddle.md) — no AI summarisation.
 
-To repopulate `knowledge-docs/` yourself:
+To repopulate `dev-context/` yourself:
 
 ```bash
-curl -s "https://defuddle.md/posit-dev.github.io/shinychat/r/index.html" > knowledge-docs/shinychat.md
+curl -s "https://defuddle.md/posit-dev.github.io/shinychat/r/index.html" > dev-context/shinychat.md
 ```
 
 Or with the `/defuddle` skill in Claude Code:

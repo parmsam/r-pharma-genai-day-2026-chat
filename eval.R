@@ -5,8 +5,8 @@ library(tibble)
 vitals_log_dir_set("./logs")
 
 context_files <- setdiff(
-  list.files("context-docs", pattern = "\\.(md|yml)$", full.names = TRUE),
-  "context-docs/links.md"
+  list.files("app-context", pattern = "\\.(md|yml)$", full.names = TRUE),
+  "app-context/links.md"
 )
 context_docs <- paste(
   vapply(context_files, \(f) paste(readLines(f, warn = FALSE), collapse = "\n"), character(1)),
