@@ -2,6 +2,8 @@ Title: R/Pharma genAI Day 2026 – R/Pharma
 
 URL Source: http://rinpharma.com/docs/ai-day/
 
+Published Time: Wed, 03 Jun 2026 04:23:19 GMT
+
 Markdown Content:
 Information on R/Pharma’s third genAI single day event
 
@@ -57,15 +59,9 @@ James Wade (Dow)
 
 R/Pharma Hangout: shinymcp 50 min
 
-12:50
-
-**Break**10 min
-
 13:00
 
-Jeremy Zhang (Otsuka Pharmaceutical Companies)
-
-Evolving Methods for Scalable Content Generation with AI 20 min
+**Break**20 min
 
 13:20
 
