@@ -2,8 +2,6 @@ Title: R/Pharma genAI Day 2026 – R/Pharma
 
 URL Source: http://rinpharma.com/docs/ai-day/
 
-Published Time: Wed, 10 Jun 2026 18:46:13 GMT
-
 Markdown Content:
 Information on R/Pharma’s third genAI single day event
 
