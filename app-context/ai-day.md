@@ -2,8 +2,6 @@ Title: R/Pharma genAI Day 2026 – R/Pharma
 
 URL Source: http://rinpharma.com/docs/ai-day/
 
-Published Time: Fri, 12 Jun 2026 21:52:32 GMT
-
 Markdown Content:
 Information on R/Pharma’s third genAI single day event
 
@@ -123,9 +121,9 @@ R/Pharma is exited to bring the first APAC-targeted schedule this year.
 
 07:30 IST
 
-Phil Bowsher (Posit)
+Garrett Grolemund (Posit) , Phil Bowsher (Posit)
 
-Hands-on Introduction to AI with Ellmer and Positron 115 min
+Use AI to build and share insights from health data 115 min
 
 09:25 IST
 
