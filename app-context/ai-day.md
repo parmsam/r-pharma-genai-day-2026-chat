@@ -2,6 +2,8 @@ Title: R/Pharma genAI Day 2026 – R/Pharma
 
 URL Source: http://rinpharma.com/docs/ai-day/
 
+Published Time: Mon, 15 Jun 2026 15:30:56 GMT
+
 Markdown Content:
 Information on R/Pharma’s third genAI single day event
 
@@ -87,7 +89,7 @@ Accelerating Population PK/PD Modeling and Simulation with GenAI 20 min
 
 Weijie Zhang (Moderna) , Xing Chen (Moderna)
 
-Agentic workflows for clinical data acceleration 20 min
+From Chat to Governed Analysis: Skill-Based AI Agents for Clinical Data Analytics 20 min
 
 15:00 EDT
 

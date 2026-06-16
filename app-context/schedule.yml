@@ -297,17 +297,47 @@
 
 - time: "14:40 EDT"
   type: "talk"
-  title: "Agentic workflows for clinical data acceleration"
+  title: "From Chat to Governed Analysis: Skill-Based AI Agents for Clinical Data Analytics"
   duration: "20 min"
   track: us_europe
-  abstract: "Abstract to follow"
+  abstract: >
+    Generative AI agents have strong potential in pharma analytics, but reliable deployment 
+    requires more than a conversational interface. Agents need access to domain-specific instructions, 
+    approved analytical workflows, validated plotting functions, and internal standards for 
+    interpretation and reporting.  
+    In this talk, we describe how we introduced a lightweight "Agent Skills" layer into an 
+    Ellmer-based agent. We implemented skill selection using tool/function calling with structured 
+    inputs. Each skill follows a common agent skill format with a YAML header and body content, 
+    giving the agent awareness of available capabilities while minimizing context usage. At runtime, 
+    the agent selects a skill name through structured input, and the corresponding full skill is 
+    dynamically loaded to guide analysis or execution.  
+    These skills are used to instruct the agent to perform analyses consistent with internal 
+    standards, call approved plotting functions, and generate structured outputs aligned with 
+    team expectations. We will share implementation details, practical lessons, and design 
+    considerations for building modular, governed, and extensible AI agents for pharma analytics 
+    using ellmer.
   speakers:
     - name: "Weijie Zhang"
       affiliation: "Moderna"
-      bio: " "
+      bio: >
+        Weijie Zhang, PhD, is a bioinformatics, computational biology, and biostatistics professional 
+        in the Statistical Innovations and Data Acceleration team at Moderna. Weijie plays a leading 
+        role in developing AI agents that accelerate clinical data analysis by translating 
+        natural-language questions into reproducible workflows. His AI work connects multi-LLM 
+        reasoning with modern AI scaffolds, customized for clinical development pipelines and grounded 
+        in analytical rigor, enabling clinical and statistical teams to obtain insights in minutes 
+        rather than days. This AI-driven approach helps reduce manual analysis burden, improve 
+        reproducibility, and support faster decision-making across clinical development programs. 
     - name: "Xing Chen"
       affiliation: "Moderna"
-      bio: " "
+      bio: >
+        Xing Chen, ScD, is Head of Statistical Innovations and Data Acceleration in Biometrics at 
+        Moderna. He leads AI-enabled analytics and statistical innovation to accelerate evidence 
+        delivery across clinical development, bridging rigorous biostatistics, clinical data science, 
+        statistical programming, automation, and GenAI. His work focuses on transforming complex 
+        clinical data into trusted, actionable evidence through scalable, reproducible, and 
+        governance-ready AI solutions that improve decision-making, strengthen operational 
+        efficiency, and shorten the path from clinical question to evidence.
 
 - time: "15:00 EDT"
   type: "talk"
